@@ -1,0 +1,72 @@
+body {
+	background-color:brown;
+	margin: 0px;
+}
+
+header{
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left-header {
+	color: purple;
+	padding-left: 30px;
+
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 30px;
+}
+nav a:hover {
+	color:white;
+	background-color:white;
+	padding:6px 20px 6px 20px;
+	border-radius:8px;
+}
+.hero{
+	font-size:70px;
+}
+.hero{
+	color: Whitesmoke;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#About {
+	width:100%;
+	color:mediumpurple;
+	background-color: white;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:150px;
+	padding-right:150px;
+
+}
+#About h1 {
+	text-align:center;
+	color:saddlebrown;
+	padding-bottom:25px;
+}
+
+#Kegiatan{
+	color:whhite;
+	padding-left:150px;
+	padding-right:150px;
+}
+.box{
+	widht:250px;
+	background-color:grey;
+}
+
+.box img {
+	padding-left:25px;
+	padding-top:10px;
+}
+.box h4 {
+	text-align:white;
+}
